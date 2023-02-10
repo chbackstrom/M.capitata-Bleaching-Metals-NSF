@@ -1,0 +1,38 @@
+---
+title: "SAFS Masters Proposal"
+author: "Callum Backstrom"
+date: "2023-02-10"
+output: 
+  html_document:
+    theme: sandstone
+    toc: TRUE
+    toc_float: TRUE
+    toc_depth: 3
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Introduction
+
+  Coral reefs build the most biologically diverse marine ecosystems on the planet that support tens of millions of people worldwide with food, storm protection, and other services (Moberg and Folke, 1999). Most reef-forming corals rely on algal symbionts in their tissue to supplement a food-based diet with photosynthesis  (Biscéré et al., 2018). However, ocean warming in the last few decades has triggered unprecedented rates of coral bleaching, in which thermally stressed corals expel their algal symbionts (Hughes et al., 2017). Bleaching stress can stunt growth and reproduction and often leads to coral starvation and death (Biscéré et al., 2018; Hughes et al., 2017). Although bleaching can be lethal for many corals, some species, like the hermaphroditic, reef-building Montipora capitata, can tolerate and recover from bleaching events and have even been found to continue sexual reproduction despite thermal stress (Padilla-Gamiño and Gates, 2012). However, corals recovering from bleaching must also contend with stressors such as heavy metal pollutants. Heavy metals such as copper, lead, and arsenic from industrial emissions, antifouling paints, oil spills, and fuel discharge can affect the health of coral reefs (Berry et al., 2013; Guzmán and Jiménez, 1992). Heavy metals can produce acute or chronic toxicity, affecting critical biological processes in corals such as respiration (Howard et al., 1986), gamete fertilization (Hédouin and Gates, 2013), and larval settlement (Reichelt-Brushett and Harrison, 2000) and causing physiological stress and bleaching (Harland and Brown, 1989; Howard and Brown, 1984). Although paleoclimate studies have correlated trace metals in corals’ skeletal growth bands with past bleaching events (Li et al., 2017), nothing is known about how bleaching stress could affect heavy metal levels in recovering corals’ tissue or their subsequent offspring (i.e., gametes/larvae) (Guzmán and Jiménez, 1992; Reichelt-Brushett and McOrist, 2003). 
+  
+  Heavy metals are integrated into corals’ tissue, gametes, and skeleton (Guzmán and Jiménez, 1992; Reichelt-Brushett and McOrist, 2003; Trumbauer et al., 2022) primarily by ingesting particulate and food sources (i.e., by heterotrophy) (Bryan, 1980; Howard and Brown, 1984). Therefore, higher concentrations of copper, cadmium, and zinc have been found in corals that rely more on heterotrophy than photosynthesis (Berry et al., 2013). When corals such as M. capitata bleach and lose their algal symbionts, they may gain energy by relying more on heterotrophy until they can recover their symbionts as a photosynthetic food source (Grottoli et al., 2006; Palardy et al., 2008). Thus, corals recovering from bleaching stress might bioaccumulate more heavy metals from zooplanktonic/detrital food sources than on a photosynthesis-supported diet. Feeding experiments suggest that previously bleached M. capitata corals heterotrophically assimilate more labeled carbon in their eggs than unbleached colonies (Padilla-Gamiño and Rodrigues, in prep). Similarly, increased metal consumption via heterotrophy during bleaching stress and subsequent symbiont recovery might lead to higher metal levels within bleached corals’ tissue, skeleton, and gametes.
+  
+  Tracking the effects of thermal stress on heavy metals within corals could also clarify the pathways of metal accumulation within the mutualism between the coral host and its algal symbionts. Previous work has shown that the algal symbionts within coral host tissue (Family: Symbiodiniaceae; LaJeunesse et al., 2018) accumulate most heavy metals including iron, arsenic, manganese, copper, zinc, cadmium, and lead at higher concentrations than the coral host (Reichelt-Brushett and McOrist, 2003). Similarly, metal exposure studies have found that anemones containing symbionts accumulate higher concentrations of some metals, including zinc and cadmium, relative to symbiont-free conspecifics (Mitchelmore et al., 2003). Within symbionts, heavy metals such as iron, manganese, zinc, copper, and cobalt can function as trace nutrients necessary for processes such as photosynthesis and antioxidant production (Ferrier-Pagès et al., 2018; Reich et al., 2020). While bleaching might initially eject many of these algal-concentrated metals from coral tissue, subsequent increases in coral heterotrophy may drive higher metal transfer to the new symbionts as they are recovered. Heightened metal levels within symbionts can become toxic, reducing symbiont density (Mitchelmore et al., 2003) and/or symbiont reproduction (Tang et al., 2022), which could stunt coral recovery from bleaching. Furthermore, many coral species like M. capitata transfer symbionts into their eggs prior to spawning (Padilla-Gamiño et al., 2011). While high levels of heavy metals such as zinc have been found in coral eggs (Reichelt-Brushett and McOrist, 2003), it is not known if parental symbiont transmission can expose eggs to excess heavy metal contaminants. Tracking differences in heavy metals stored within both host and symbiont components of coral tissue could reveal how metals gained during bleaching events affect host-driven processes, such as coral reproduction, relative to symbiont-driven processes, such as photosynthesis.
+
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
